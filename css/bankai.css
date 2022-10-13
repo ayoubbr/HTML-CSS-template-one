@@ -1,10 +1,23 @@
 /* Start Variables */
 :root {
-  --main-color: #9810ca;
+  --main-color: #233dff;
+  --second-color: #5cb6f9;
+  --third-color: #2196f3;
+  --fourth-color: #12229d;
+  --fifth-color: #050a30;
+  --sixth-color: #cae8ff;
+  --seventh-color: #f4f6fc;
   --secondary-color: #344e5b;
   --section-padding: 60px;
   --section-background: #f6f6f6;
   --main-duration: 0.5s;
+
+  /* 1 : #5CB6F9
+2 : #12229D
+3 : #233DFF
+4 : #CAE8FF
+5 : #F4F6FC
+6 : #050A30 */
 }
 /* End Variables */
 /* Start Global Rules */
@@ -21,8 +34,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -419,6 +431,6 @@ body {
 }
 .footer span {
   font-weight: bold;
-  color: #d076f1;
+  color: var(--third-color);
 }
 /* End Footer */
